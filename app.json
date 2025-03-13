@@ -4,10 +4,10 @@
     "slug": "pet-profile-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/dog.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/dog.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,17 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.barebones"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/dog.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.barebones"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/dog.png"
     },
-    "newArchEnabled": true
+    "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "1ea715ca-980d-4c80-959e-f49ab5515f6c"
+      }
+    },
+    "owner": "3abdawy"
   }
-} 
+}

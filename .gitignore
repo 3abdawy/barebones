@@ -27,3 +27,5 @@ Thumbs.db
 # Build directories (if applicable, e.g., for native projects)
 android/
 ios/
+
+yarn.lock
